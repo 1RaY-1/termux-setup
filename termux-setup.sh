@@ -28,7 +28,7 @@ yes | pkg install \
 
 # CONFIGURE SOME PROGRAMS
 
-# add some bash aliases
+# create some bash aliases
 if [[ ! -f ~/.bash_aliases ]]; then
 	touch ~/.bash_aliases
 fi
