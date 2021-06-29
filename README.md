@@ -13,4 +13,4 @@ This script does this things:
 * Install ToolX if you want to, but for this you'll have to uncoment those commands from *116th* line
 
 # Note
-I didn't test this on an android device yet. So maybe there some errors can be ocurred, but I don't think so.
+I didn't test this yet. So maybe there some errors can be ocurred, but I don't think so.
