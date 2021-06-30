@@ -1,4 +1,4 @@
-# Initial Termux setup
+# My Termux setup
 
 # update, upgrade
 pkg update && pkg upgrade -y
@@ -100,20 +100,17 @@ inoremap { {}<left>
 inoremap " ""<left>
 EOF
 
-# confifure pip and install some modules
+# upgrade pip and install some modules
 pip install --upgrade pip
 pip install setuptools
 pip install requests
 
-# OPTIONAL
-
+# MORE
 # remove Termux welcome text
-#rm /data/data/com.termux/files/usr/etc/motd
+rm /data/data/com.termux/files/usr/etc/motd
 
-# you can also install some hacking tools
-
-# install ToolX
-#git clone https://github.com/rajkumardusad/Tool-X.git
-#cd Tool-X
-#chmod +x install
-#./install
+# install Tool-X
+git clone https://github.com/rajkumardusad/Tool-X.git
+cd Tool-X
+chmod +x install
+./install
