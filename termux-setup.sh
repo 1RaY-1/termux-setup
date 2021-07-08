@@ -1,3 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
 # My Termux setup
 
 # update, upgrade
