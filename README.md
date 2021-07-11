@@ -5,7 +5,7 @@ This is my Termux setup
 This script does this things:
 * Update, upgrade packages
 * Give Termux a storage access permission
-* Install some programs (wget, net-tools, mlocate, python3, python3-dev , clang, zip, unzip, tree, git, cmatrix, htop, top, grep, vim, neofetch)
+* Install some programs (wget, net-tools, mlocate, python3, clang, zip, unzip, tree, git, cmatrix, htop, top, grep, vim, neofetch)
 * Create some bash aliases
 * Configure vim
 * Upgrade pip and install some modules
