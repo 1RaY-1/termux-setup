@@ -30,22 +30,6 @@ pkg install neofetch -y
 
 # CONFIGURE SOME PROGRAMS
 
-# create some bash aliases
-
-cat >> ~/.bashrc << EOF
-# SOME BASH ALIASES, ADDED BY termux-setup.sh
-# list all files
-alias la="ls -a"
-# get your ip
-alias myip='curl ipinfo.io/ip'
-alias ckear='clear'
-# sort files by size
-alias lt='ls --human-readable --size -1 -S --classify'
-# count files
-alias count='find . -type f | wc -l'
-EOF
-
-
 # confifure vim
 # install monokai color scheme 
 git clone https://github.com/sickill/vim-monokai 
