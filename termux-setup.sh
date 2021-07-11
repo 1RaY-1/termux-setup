@@ -15,6 +15,7 @@ yes | pkg install \
 	mlocate \
 	python3 \
 	python3-dev \
+	clang \
 	zip \
 	unzip \
 	tree \
@@ -23,35 +24,27 @@ yes | pkg install \
 	htop \
 	top \
 	grep \
-	nano 
+	nano \
+	vim \
+	neofetch
 
-# if your phone is rooted, you can install package 'tsu' to be able to use 'sudo' command
+# if your device is rooted, you can install package 'tsu' to be able to use 'sudo' command, for this uncomment next command:
 #pkg install tsu
 
 # CONFIGURE SOME PROGRAMS
 
 # create some bash aliases
-if [[ ! -f ~/.bash_aliases ]]; then
-	touch ~/.bash_aliases
-fi
 
-cat > ~/.bash_aliases << EOF
-if [ -e $HOME/.bash_aliases ]; then
-    source $HOME/.bash_aliases
-fi
-
+cat >> ~/.bashrc << EOF
+# SOME BASH ALIASES, ADDED BY termux-setup.sh
 # list all files
 alias la="ls -a"
-
 # get your ip
 alias myip='curl ipinfo.io/ip'
-
 alias ckear='clear'
-
 # sort files by size
 alias lt='ls --human-readable --size -1 -S --classify'
-
-# count files, if you don't want to use 'tree' command
+# count files
 alias count='find . -type f | wc -l'
 EOF
 
@@ -116,3 +109,6 @@ git clone https://github.com/rajkumardusad/Tool-X.git
 cd Tool-X
 chmod +x install
 ./install
+
+echo "Termux setup complete!"
+exit 0
