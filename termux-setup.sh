@@ -12,8 +12,7 @@ termux-setup-storage
 pkg install wget -y
 pkg install net-tools -y
 pkg install mlocate -y
-pkg install python3 
-pkg install python3-dev -y
+pkg install python3 -y
 pkg install clang -y
 pkg install zip -y
 pkg install unzip -y
@@ -51,17 +50,7 @@ EOF
 # install monokai color scheme 
 git clone https://github.com/sickill/vim-monokai 
 
-# if directory where we can have new vim color schemes does not exist, then program will create it
-if [[ ! -d ~/.vim/ ]]; then
-	mkdir ~/.vim/
-	mkdir ~/.vim/colors/
-elif [[ -d ~/.vim/ ]]; then
-	if [[ ! -d ~/.vim/colors/ ]]; then
-		mkdir ~/.vim/colors/
-	fi
-fi
-# move vim monokai color scheme to it's destination directory
-cd colors && mv monokai.vim ~/.vim/colors/ && cd .. && rm -rf vim-monokai/
+mv vim-monokai/colors/monokai.vim /data/data/com.termux/files/usr/share/vim/vim*/colors/ && rm -rf vim-monokai/
 
 # configure vim config file (you can edit it, by the way)
 cat > ~/.vimrc << EOF
