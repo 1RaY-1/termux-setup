@@ -9,24 +9,23 @@ pkg update && pkg upgrade -y
 termux-setup-storage
 
 # INSTALL SOME PROGRAMS
-yes | pkg install \
-	wget \
-	net-tools \
-	mlocate \
-	python3 \
-	python3-dev \
-	clang \
-	zip \
-	unzip \
-	tree \
-	git \
-	cmatrix \
-	htop \
-	top \
-	grep \
-	nano \
-	vim \
-	neofetch
+pkg install wget 
+pkg install net-tools 
+pkg install mlocate 
+pkg install python3 
+pkg install python3-dev 
+pkg install clang 
+pkg install zip 
+pkg install unzip 
+pkg install tree 
+pkg install git 
+pkg install cmatrix 
+pkg install htop 
+pkg install top 
+pkg install grep 
+pkg install nano 
+pkg install vim 
+pkg install neofetch
 
 # if your device is rooted, you can install package 'tsu' to be able to use 'sudo' command, for this uncomment next command:
 #pkg install tsu
