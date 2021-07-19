@@ -1,15 +1,15 @@
 # About
-This is my Termux setup
+This is my Termux setup.
 
 # What this script does
 This script does this things:
-* Update, upgrade packages
-* Give Termux a storage access permission
-* Install some programs (wget, net-tools, mlocate, python3, clang, zip, unzip, tree, git, cmatrix, htop, top, grep, vim, neofetch)
-* Configure vim
-* Upgrade pip and install some modules
-* Remove Termux welcome text
-* Install Tool-X
+* Update, upgrade packages.
+* Give Termux a storage access permission.
+* Install some programs (wget, net-tools, mlocate, python3, clang, zip, unzip, tree, git, cmatrix, htop, top, grep, vim, neofetch).
+* Configure vim.
+* Upgrade pip and install some modules.
+* Remove Termux welcome text.
+* Install Tool-X.
 
 # How to run this on Termux
 There several options to run this script on Termux.
