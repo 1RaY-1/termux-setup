@@ -1,7 +1,9 @@
 # About
-This is my Termux setup.
+Bash script that installs my termux setup
 
-# What this script does
+# My setup
+
+### What this script does
 This script does this things:
 * Update, upgrade packages.
 * Give Termux a storage access permission.
