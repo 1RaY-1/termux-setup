@@ -34,7 +34,9 @@ pkg install neofetch -y
 # install monokai color scheme 
 git clone https://github.com/sickill/vim-monokai 
 
-mv vim-monokai/colors/monokai.vim /data/data/com.termux/files/usr/share/vim/vim*/colors/ && rm -rf vim-monokai/
+mkdir -p ~/.vim/colors
+
+mv vim-monokai/colors/monokai.vim ~/.vim/colors && rm -rf vim-monokai/
 
 # configure vim config file (you can edit it, by the way)
 cat > ~/.vimrc << EOF
