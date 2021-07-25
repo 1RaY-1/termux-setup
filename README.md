@@ -6,7 +6,7 @@ Bash script that installs my termux setup
 If you run [termux-setup.sh](https://github.com/1RaY-1/termux-setup/blob/main/termux-setup.sh), it will do this things:
 * Update, upgrade packages.
 * Give Termux a storage access permission.
-* Install some programs (wget, net-tools, mlocate, python3, clang, zip, unzip, tree, git, cmatrix, htop, top, grep, vim, neofetch).
+* Install some programs (wget, net-tools, mlocate, python3, clang, zip, unzip, tree, git, cmatrix, htop, grep, vim, neofetch).
 * Configure vim.
 * Upgrade pip and install some modules.
 * Remove Termux welcome text.
