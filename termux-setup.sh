@@ -20,7 +20,6 @@ pkg install tree -y
 pkg install git -y
 pkg install cmatrix -y
 pkg install htop -y
-pkg install top -y
 pkg install grep -y
 pkg install vim -y
 pkg install neofetch -y
