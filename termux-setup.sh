@@ -51,16 +51,11 @@ hi LineNr ctermbg=16 guibg=#000000
 
 set cursorline
 hi cursorline gui=underline cterm=underline ctermbg=NONE
-
 set smartindent
-
 set nowrap
-
 set number
-
 set tabstop=4
 set expandtab
-
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
@@ -76,11 +71,10 @@ pip install requests
 # remove Termux welcome text
 rm /data/data/com.termux/files/usr/etc/motd
 
-# install Tool-X
-git clone https://github.com/rajkumardusad/Tool-X.git
-cd Tool-X
-chmod +x install
-./install
+# install onex
+git clone https://github.com/rajkumardusad/onex.git
+chmod +x onex/install
+./onex/install
 
 echo "Termux setup complete!"
 exit 0
