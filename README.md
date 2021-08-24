@@ -1,5 +1,5 @@
 # About
-Bash script that installs my termux setup
+Setup bash script for termux
 
 # My setup
 
