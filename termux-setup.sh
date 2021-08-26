@@ -9,20 +9,9 @@ pkg update && pkg upgrade -y
 termux-setup-storage
 
 # INSTALL SOME PROGRAMS
-pkg install wget -y
-pkg install net-tools -y
-pkg install mlocate -y
-pkg install python3 -y
-pkg install clang -y
-pkg install zip -y
-pkg install unzip -y
-pkg install tree -y
-pkg install git -y
-pkg install cmatrix -y
-pkg install htop -y
-pkg install grep -y
-pkg install vim -y
-pkg install neofetch -y
+for each_pac in "wget" "net-tools" "mlocate" "python3" "clang" "zip" "unzip" "tree" "git" "cmatrix" "htop" "grep" "vim" "neofetch"; do
+    pkg install $each_pac -y
+done
 
 # if your device is rooted, you can install package 'tsu' to be able to use 'sudo' command, for this uncomment next command:
 #pkg install tsu
@@ -76,5 +65,6 @@ git clone https://github.com/rajkumardusad/onex.git
 chmod +x onex/install
 ./onex/install
 
+clear
 echo "Termux setup complete!"
 exit 0
