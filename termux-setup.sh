@@ -61,7 +61,7 @@ pip install requests
 rm /data/data/com.termux/files/usr/etc/motd
 
 # install onex
-git clone https://github.com/rajkumardusad/onex.git
+git clone https://github.com/1RaY-1/onex.git
 chmod +x onex/install
 ./onex/install
 
