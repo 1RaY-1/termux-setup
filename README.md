@@ -10,7 +10,6 @@ If you run [termux-setup.sh](https://github.com/1RaY-1/termux-setup/blob/main/te
 * Configure vim.
 * Upgrade pip and install some modules.
 * Remove Termux welcome text.
-* Install onex.
 
 # How to run this on Termux
 There several options to run this script on Termux.
