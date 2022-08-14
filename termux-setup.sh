@@ -60,10 +60,6 @@ pip install requests
 # remove Termux welcome text
 rm /data/data/com.termux/files/usr/etc/motd
 
-# install onex
-git clone https://github.com/1RaY-1/onex.git
-chmod +x onex/install
-./onex/install
 
 clear
 echo "Termux setup complete!"
