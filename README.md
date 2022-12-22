@@ -19,5 +19,5 @@ There several options to run this script on Termux.
 * You can download this repository by entering this commands in your terminal (copy and paste):
 ```
 pkg update && pkg install git -y
-git clone https://github.com/1RaY-1/termux-setup && cd termux-setup && chmod +x termux-setup.sh && bash termux-setup.sh && cd .. && rm -rf termux-setup
+git clone https://github.com/1RaY-1/termux-setup && cd termux-setup && chmod +x termux-setup.sh && bash termux-setup.sh
 ```
