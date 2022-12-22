@@ -22,6 +22,5 @@ If you run [termux-setup.sh](https://github.com/1RaY-1/termux-setup/blob/main/te
 
 Copy and paste next commands in termux (to download and run setup script)
 ```
-pkg update && apt install git -y
-git clone https://github.com/1RaY-1/termux-setup && cd termux-setup && chmod +x termux-setup.sh && bash termux-setup.sh
+curl -OL https://raw.githubusercontent.com/1ray-1/termux-setup/main/termux-setup.sh && chmod +x termux-setup.sh && bash termux-setup.sh
 ```
