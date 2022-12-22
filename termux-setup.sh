@@ -51,7 +51,7 @@ inoremap " ""<left>
 EOF
 
 # install some python modules
-for each in "setuptools" "requests" "ipython" "cryptography" "faker"
+for each in "setuptools" "requests" "ipython" "cryptography" "faker"; do
     pip3 install $each
 done
 
