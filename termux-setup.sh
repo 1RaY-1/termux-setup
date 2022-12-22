@@ -5,14 +5,15 @@
 # git clone https://github.com/1RaY-1/termux-setup && cd termux-setup && chmod +x termux-setup.sh && bash termux-setup.sh
 
 
-# upgrade
+# update & upgrade
+pkg update
 pkg upgrade -y
 
 # configure storage
 termux-setup-storage
 
 # INSTALL SOME PROGRAMS
-for each_pac in "wget" "net-tools" "mlocate" "python3" "clang" "zip" "unzip" "tree" "git" "cmatrix" "htop" "grep" "vim" "neofetch" "curl"; do
+for each_pac in "wget" "net-tools" "mlocate" "python3" "clang" "zip" "unzip" "tree" "git" "cmatrix" "htop" "ruby" "vim" "neofetch" "curl"; do
     pkg install $each_pac -y
 done
 
