@@ -1,22 +1,26 @@
 # About
-Setup bash script for termux
+Setup script for termux
 
-# My setup
+## Setup
 
 If you run [termux-setup.sh](https://github.com/1RaY-1/termux-setup/blob/main/termux-setup.sh), it will do this things:
-* Update, upgrade packages.
+* Upgrade all packages.
 * Give Termux a storage access permission.
-* Install some programs (wget, net-tools, mlocate, python3, clang, zip, unzip, tree, git, cmatrix, htop, grep, vim, neofetch).
+* Install some programs (wget, net-tools, mlocate, etc...).
 * Configure vim.
-* Upgrade pip and install some python modules.
+* Install some python modules (setuptools, requests, ipython, cryptography, faker) .
+* Install sms bomber (https://github.com/Denishnc/b0mb3r)
+* Install Ip Tracer (https://github.com/rajkumardusad/IP-Tracer.git)
 * Remove Termux welcome text.
 
-# How to run this on Termux
-There several options to run this script on Termux.
+## Requierements
+* Stable internet connection
+* Enough storage space
+* Termux installed on your device
 
-* You can just copy the script's content and past it in a new file and then execute it.
+## How to run this on Termux
 
-* You can download this repository by entering this commands in your terminal (copy and paste):
+Copy and paste next commands in termux (to download and run setup script)
 ```
 pkg update && apt install git -y
 git clone https://github.com/1RaY-1/termux-setup && cd termux-setup && chmod +x termux-setup.sh && bash termux-setup.sh
