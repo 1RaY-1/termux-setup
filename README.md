@@ -10,7 +10,7 @@ If you run [termux-setup.sh](https://github.com/1RaY-1/termux-setup/blob/main/te
 * Install Ip Tracer (https://github.com/rajkumardusad/IP-Tracer.git)
 * Remove Termux welcome text.
 
-***I can add more stuff, but for the moment I think its enough***
+***I could add more stuff, but for the moment I think its enough***
 
 ## Requierements
 * Stable internet connection
