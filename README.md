@@ -24,9 +24,7 @@ Copy and paste next commands in termux (to download and run setup script)
 curl -OL https://raw.githubusercontent.com/1ray-1/termux-setup/main/termux-setup.sh && chmod +x termux-setup.sh && bash termux-setup.sh
 ```
 
-## Errors
-If you receive **Termux repository under maintenance error**
+## Solve Termux repository under maintenance error
+Maybe at trying to update packages, you'll receive something like: **Termux repository under maintenance error**
 
-Try changing repository by entering ```termux-change-repo``` (and choose another repo)
-
-If you still receive this error, I suppose you just wait until they fix this, or try finding another solution
+What solved this problem for me is just installing termux from [F-Droid](https://f-droid.org)
