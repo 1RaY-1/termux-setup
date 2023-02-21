@@ -25,6 +25,4 @@ curl -OL https://raw.githubusercontent.com/1ray-1/termux-setup/main/termux-setup
 ```
 
 ## Solve Termux repository under maintenance error
-Maybe at trying to update packages, you'll receive something like: **Termux repository under maintenance error**
-
-What solved this problem for me is just installing termux from [F-Droid](https://f-droid.org)
+To solve it, try installing termux from [F-Droid](https://f-droid.org), or [Aptoide](https://en.aptoide.com)
