@@ -1,28 +1,23 @@
-## Setup
+## My simple termux setup
 
 If you run [termux-setup.sh](https://github.com/1RaY-1/termux-setup/blob/main/termux-setup.sh), it will do this things:
 * Upgrade all packages.
 * Give Termux a storage access permission.
 * Install some programs (wget, net-tools, mlocate, etc...).
-* Configure vim.
+* Install and configure vim.
 * Install some python modules (setuptools, requests, ipython, cryptography, faker) .
 * Install sms bomber (https://github.com/Denishnc/b0mb3r)
 * Install Ip Tracer (https://github.com/rajkumardusad/IP-Tracer.git)
 * Remove Termux welcome text.
 
-***I could add more stuff, but for the moment I think its enough***
-
 ## Requierements
 * Stable internet connection
-* Enough storage space
-* Termux installed on your device
+* Termux installed on Android device
 
-## How to run this on Termux
+## How to setup Termux using my script
+1. Install Termux from [F-Droid](https://f-droid.org), or [Aptoide](https://en.aptoide.com), to solve ***repository under maintenance error***
 
-Copy and paste next commands in termux (to download and run setup script)
+2. Open Termux and paste the following commands:
 ```
 curl -OL https://raw.githubusercontent.com/1ray-1/termux-setup/main/termux-setup.sh && chmod +x termux-setup.sh && bash termux-setup.sh
 ```
-
-## Solve Termux repository under maintenance error
-To solve it, try installing termux from [F-Droid](https://f-droid.org), or [Aptoide](https://en.aptoide.com)
