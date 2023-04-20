@@ -15,7 +15,7 @@ If you run [termux-setup.sh](https://github.com/1RaY-1/termux-setup/blob/main/te
 * Termux installed on Android device
 
 ## How to setup Termux using my script
-1. Install Termux from [F-Droid](https://f-droid.org), or [Aptoide](https://en.aptoide.com), to solve ***repository under maintenance error***
+1. Install Termux from [F-Droid](https://f-droid.org), or [Aptoide](https://en.aptoide.com) (to solve ***repository under maintenance error***)
 
 2. Open Termux and paste the following commands:
 ```
