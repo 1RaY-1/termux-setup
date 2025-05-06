@@ -1,5 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
+# This is a sample bash script to help you configure Termux in a more automatic way
+# Some packages like 'clang, cmatrix, etc...' and the GitHub repository this script downloads it's just an example
+# I actually recommend you customizing it first for you before executing it.
+
 # download and run this script by enetering this in your terminal (without hashtag):
 # curl -OL https://raw.githubusercontent.com/1ray-1/termux-setup/main/termux-setup.sh && chmod +x termux-setup.sh && bash termux-setup.sh
 
@@ -12,7 +16,7 @@ pkg upgrade -y
 termux-setup-storage
 
 # INSTALL SOME PROGRAMS
-for each_pac in "wget" "net-tools" "mlocate" "python3" "clang" "zip" "unzip" "tree" "git" "cmatrix" "htop" "ruby" "vim" "neofetch" "curl"; do
+for each_pac in "wget" "net-tools" "mlocate" "python3" "clang" "zip" "unzip" "tree" "git" "cmatrix" "htop" "vim" "neofetch" "curl"; do
     pkg install $each_pac -y
 done
 
@@ -54,9 +58,6 @@ for each in "setuptools" "requests" "ipython" "cryptography" "faker"; do
     pip3 install $each
 done
 
-# Install sms b0mb3r (https://github.com/Denishnc/b0mb3r)
-cd ~
-git clone https://github.com/Denishnc/b0mb3r
 
 # Install ip tracer (https://github.com/rajkumardusad/IP-Tracer.git)
 cd ~
